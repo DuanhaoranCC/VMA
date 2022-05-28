@@ -1,0 +1,52 @@
+Cora:
+  num_hidden: 128
+  num_proj_hidden: 128
+  activation: 'relu'
+  base_model: 'GCNConv'
+  num_layers: 2
+  learning_rate: 8.856879574281693e-05
+  epoch: 1000
+  weight_decay: 0.009925104169144834
+  p1: 0.75
+  p2: 0.05
+  t: 2
+  tau: 0.53
+CiteSeer:
+  num_hidden: 128
+  num_proj_hidden: 128
+  activation: 'elu'
+  base_model: 'GCNConv'
+  num_layers: 2
+  learning_rate: 0.008
+  epoch: 2000
+  weight_decay: 0.001
+  p1: 0.8
+  p2: 0.9
+  t: 2
+  tau: 0.3
+PubMed:
+  learning_rate: 0.001
+  num_hidden: 512
+  num_proj_hidden: 512
+  activation: 'elu'
+  base_model: 'GCNConv'
+  num_layers: 2
+  epoch: 400
+  weight_decay: 0.0
+  p1: 0.7
+  p2: 0.4
+  t: 64
+  tau: 0.2
+DBLP:
+  num_hidden: 256
+  num_proj_hidden: 256
+  activation: 'relu'
+  base_model: 'GCNConv'
+  num_layers: 2
+  learning_rate: 0.00008
+  epoch: 2000
+  weight_decay: 0.0001
+  p1: 0.8
+  p2: 0.1
+  t: 2
+  tau: 0.9
