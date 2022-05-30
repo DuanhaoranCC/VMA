@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-For Photo dataset, you can use the following command, and the parameters are given
+You can use the following command, and the parameters are given
 
 ```shell
 python train.py --dataset DBLP
