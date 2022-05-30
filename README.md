@@ -22,10 +22,10 @@ pip install -r requirements.txt
 For Photo dataset, you can use the following command, and the parameters are given
 
 ```shell
-python train.py --dataset Cora
+python train.py --dataset DBLP
 ```
 
-The `--dataset` argument should be one of [ Cora, Cora_ML, CiteSeer, PubMed, DBLP, NELL, Physics, CS,  Computers, Photo].
+The `--dataset` argument should be one of [Cora, CiteSeer, PubMed, DBLP].
 
 ## Reference link
 
