@@ -2,8 +2,7 @@
 
 This repository is called CGRA in the previous version, I renamed the model name in the camera-ready version.
 
-This repository is for the source code of the journal Neural Networks paper "Self-supervisedcontrastivegraphrepresentationwithnodeandgraph
-augmentation."
+This repository is for the source code of the journal Neural Networks paper "Self-Supervised Contrastive Graph Representation with Node and Graph Augmentation."
 
 
 ## Dependencies
