@@ -1,8 +1,9 @@
-# CGRA
+# VMA
 
-The PyTorch implementation of Self-supervised Contrastive Graph Representation with Node and Graph Augmentation.
+This repository is called CGRA in the previous version, I renamed the model name in the camera-ready version.
 
-In this work, we propose a new graph augmentation method to generate an augmentation graph without changing any structures from the original graph. Meanwhile, a node augmentation method is proposed to augment the positive node pairs by discovering the most similar nodes in the same graph. 
+This repository is for the source code of the journal Neural Networks paper "Self-supervisedcontrastivegraphrepresentationwithnodeandgraph
+augmentation."
 
 
 ## Dependencies
@@ -22,7 +23,7 @@ pip install -r requirements.txt
 You can use the following command, and the parameters are given
 
 ```shell
-python train.py --dataset DBLP
+python train.py --dataset Cora
 ```
 
 The `--dataset` argument should be one of [Cora, CiteSeer, PubMed, DBLP].
@@ -35,3 +36,16 @@ The code refers to the following two papers. Thank them very much for their open
 
 [Directed Graph Contrastive Learning(DiGCL)](https://github.com/flyingtango/DiGCL)
 
+
+##
+```
+@article{duan2023self,
+  title={Self-supervised contrastive graph representation with node and graph augmentation},
+  author={Duan, Haoran and Xie, Cheng and Li, Bin and Tang, Peng},
+  journal={Neural Networks},
+  volume={167},
+  pages={223--232},
+  year={2023},
+  publisher={Elsevier}
+}
+```
