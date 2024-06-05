@@ -37,7 +37,7 @@ The code refers to the following two papers. Thank them very much for their open
 [Directed Graph Contrastive Learning(DiGCL)](https://github.com/flyingtango/DiGCL)
 
 
-##
+## Cite
 ```
 @article{duan2023self,
   title={Self-supervised contrastive graph representation with node and graph augmentation},
