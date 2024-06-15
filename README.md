@@ -38,13 +38,16 @@ The code refers to the following two papers. Thank them very much for their open
 
 ## Cite
 ```
-@article{duan2023self,
-  title={Self-supervised contrastive graph representation with node and graph augmentation},
-  author={Duan, Haoran and Xie, Cheng and Li, Bin and Tang, Peng},
-  journal={Neural Networks},
-  volume={167},
-  pages={223--232},
-  year={2023},
-  publisher={Elsevier}
+@article{DBLP:journals/nn/DuanXLT23,
+  author       = {Haoran Duan and
+                  Cheng Xie and
+                  Bin Li and
+                  Peng Tang},
+  title        = {Self-supervised contrastive graph representation with node and graph
+                  augmentation},
+  journal      = {Neural Networks},
+  volume       = {167},
+  pages        = {223--232},
+  year         = {2023},
 }
 ```
